@@ -1,0 +1,33 @@
+<%= flash[:notice] %>
+<table>
+<thead>
+<tr>
+    <th>Reference</th>
+    <th>Address</th>
+    <th>Zip Code</th>
+    <th>City</th>
+    <th>Country</th>
+    <th>Manager Name</th>
+</tr>
+</thead>
+<tbody>
+<% @buildings.each do |building| %>
+    <tr>
+        <td><%= building.reference %></td>
+        <td><%= building.address %></td>
+        <td><%= building.zip_code %></td>
+        <td><%= building.city %></td>
+        <td><%= building.country %></td>
+        <td><%= building.manager_name %></td>
+    </tr>
+<% end %>
+</tbody>
+</table
+
+<div>
+<h4>Import building Data</h4>
+    <%= form_tag import_buildings_path, multipart: true do %>
+        <%= file_field_tag :file %>
+        <%= submit_tag "Import CSV" %>
+    <% end %>
+</div>

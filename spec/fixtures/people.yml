@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reference: '1'
+  email: 'h.dupont@gmail.com'
+  home_phone_number: '0123456789'
+  mobile_phone_number: '0623456789'
+  firstname: 'Henri'
+  lastname: 'Dupont'
+  address: '10 Rue La bruyère'
+
+two:
+  reference: '2'
+  email: 'jdurand@gmail.com'
+  home_phone_number: '0123336789'
+  mobile_phone_number: '0663456789'
+  firstname: 'Jean'
+  lastname: 'Durand'
+  address: 'MyString'

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reference: '1'
+  address: '10 Rue La bruyère'
+  zip_code: '75009'
+  city: 'Paris'
+  country: 'France'
+  manager_name: 'Martin Faure'
+
+two:
+  reference: '2'
+  address: '40 Rue René Clair'
+  zip_code: '75018'
+  city: 'Paris'
+  country: 'France'
+  manager_name: 'Martin Faure'
