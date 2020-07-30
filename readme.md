@@ -10,7 +10,7 @@ This is a sandbox rails project for a mini challenge by Inch
 ## Installation
 
 ```bash
-git clone
+git clone git@github.com:powerfulsheron/inch.git
 cd inch
 bundle install
 ```
